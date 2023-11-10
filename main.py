@@ -8,10 +8,10 @@ e = 1
 # print(c)
 
 while 1 == 1:
-    d = int(input("введіте число "))
+    d = int(input("введите число "))
     if d == c:
-        print("ви угадалі")
-        print(f"ви угадалі за {e} ходов")
+        print("ви угадали")
+        print(f"ви угадали за {e} ходов")
         exit()
     if d > c:
         print("меньше")
